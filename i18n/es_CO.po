@@ -1,0 +1,99 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* done_activity
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0-20210506\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-31 17:41+0000\n"
+"PO-Revision-Date: 2022-05-31 17:41+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: done_activity
+#: model:ir.model,name:done_activity.model_mail_activity
+msgid "Activity"
+msgstr "Actividad"
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__contact
+msgid "Contacto"
+msgstr ""
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__create_date
+msgid "Created on"
+msgstr "Creado"
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__display_name
+msgid "Display Name"
+msgstr "Nombre Público"
+
+#. module: done_activity
+#: model:ir.actions.act_window,name:done_activity.action_done_activity
+#: model:ir.ui.menu,name:done_activity.menu_done_activity
+#: model_terms:ir.ui.view,arch_db:done_activity.done_activity_tree
+msgid "Done Activities"
+msgstr "Actividades finalizadas"
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__user
+msgid "Done By"
+msgstr "Hecho por"
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__date_mod
+msgid "Fecha"
+msgstr ""
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__id
+msgid "ID"
+msgstr ""
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificacion en"
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por"
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__write_date
+msgid "Last Updated on"
+msgstr "Actualizado"
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__state
+msgid "State"
+msgstr "Estado"
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__name
+msgid "Summary"
+msgstr "Resumen"
+
+#. module: done_activity
+#: model:ir.model.fields,field_description:done_activity.field_done_activity__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: done_activity
+#: model:ir.model,name:done_activity.model_done_activity
+msgid "done.activity"
+msgstr ""
+
