@@ -6,6 +6,7 @@
             <field name="arch" type="xml">
                 <tree string="Done Activities">
                     <field name="name"/>
+                    <!--field name="note"/-->
                     <field name="type" />
                     <field name="state" />
                     <field name="user" />
