@@ -96,7 +96,7 @@ class mail_activity2(models.Model):
             # Moving the attachments in the message
             # TODO: Fix void res_id on attachment when you create an activity with an image
             # directly, see route /web_editor/attachment/add
-            obj.create({'name': activity.summary,'type':activity.activity_type_id.name,'state':'done','user':activity.user_id.name})
+            obj.create({'name': activity.summary,'type':activity.activity_type_id.name,'state':'Finalizado','user':activity.user_id.name})
             activity_message = record.message_ids[0]
             message_attachments = self.env['ir.attachment'].browse(activity_attachments[activity.id])
             if message_attachments:
